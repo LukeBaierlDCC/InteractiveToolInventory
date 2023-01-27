@@ -30,12 +30,14 @@ namespace ToolInventoryMGMT
                     int quantity = int.Parse(Console.ReadLine());
                     Console.Write("Enter tool cost: ");
                     double cost = double.Parse(Console.ReadLine());
-                    Console.Write("Enter tool weight: ");
-                    double weight = double.Parse(Console.ReadLine());
+                    Console.Write("Enter tool size in inches: ");
+                    double size = double.Parse(Console.ReadLine());
+                    Console.Write("Enter tool weight in pounds (use decimal number if needed): ");
+                    float weight = float.Parse(Console.ReadLine());
                     Console.Write("Enter tool model: ");
                     string model = Console.ReadLine();
 
-                    inventory.AddTool(name, quantity, cost, weight, model);
+                    inventory.AddTool(name, quantity, cost, size, weight, model);
                     Console.WriteLine("Tool added successfully!");
                 }
                 else if (choice == 2)
@@ -65,8 +67,8 @@ namespace ToolInventoryMGMT
                         Console.WriteLine("Search results:");
                         foreach (Tool tool in searchResults)
                         {
-                            Console.WriteLine("Name: {0}, Quantity: {1}, Cost: {2}, Weight: {3}, Model: {4}",
-                                              tool.Name, tool.Quantity, tool.Cost, tool.Weight, tool.Model);
+                            Console.WriteLine("Name: {0}, Quantity: {1}, Cost: {2}, Size: {3}, Weight: {4}, Model: {5}",
+                                              tool.Name, tool.Quantity, tool.Cost, tool.Size, tool.Weight, tool.Model);
                         }
                     }
                 }

@@ -11,15 +11,17 @@ namespace ToolInventoryMGMT
         public string Name { get; set; }
         public int Quantity { get; set; }
         public double Cost { get; set; }
-        public double Weight { get; set; }
+        public double Size { get; set; }
+        public float Weight { get; set; }
         public string Model { get; set; }
 
-        public Tool(string name, int quantity, double cost, double weight, string model)
+        public Tool(string name, int quantity, double cost, double size, float weight, string model)
         {
             Name = name;
             Quantity = quantity;
             Cost = cost;
-            Weight = weight;
+            Size = size;
+            Weight = Weight;
             Model = model;
         }
     }

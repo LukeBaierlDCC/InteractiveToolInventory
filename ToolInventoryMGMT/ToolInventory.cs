@@ -12,9 +12,9 @@ class ToolInventory
         tools = new List<Tool>();
     }
 
-    public void AddTool(string name, int quantity, double cost, double weight, string model)
+    public void AddTool(string name, int quantity, double cost, double size, float weight, string model)
     {
-        tools.Add(new Tool(name, quantity, cost, weight, model));
+        tools.Add(new Tool(name, quantity, cost, size, weight, model));
     }
 
     public void RemoveTool(string name)
@@ -27,8 +27,8 @@ class ToolInventory
         Console.WriteLine("Current Inventory:");
         foreach (Tool tool in tools)
         {
-            Console.WriteLine("Name: {0}, Quantity: {1}, Cost: {2}, Weight: {3}, Model: {4}",
-                              tool.Name, tool.Quantity, tool.Cost, tool.Weight, tool.Model);
+            Console.WriteLine("Name: {0}, Quantity: {1}, Cost: {2}, Size: {3}, Weight: {4}, Model: {5}",
+                              tool.Name, tool.Quantity, tool.Cost, tool.Size, tool.Weight, tool.Model);
         }
     }
 
