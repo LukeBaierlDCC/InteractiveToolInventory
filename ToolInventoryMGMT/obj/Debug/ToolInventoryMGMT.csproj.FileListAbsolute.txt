@@ -1,0 +1,7 @@
+E:\ze Potential Trash\Cute Practice Exercises\ToolMGMT\ToolInventoryMGMT\ToolInventoryMGMT\bin\Debug\ToolInventoryMGMT.exe.config
+E:\ze Potential Trash\Cute Practice Exercises\ToolMGMT\ToolInventoryMGMT\ToolInventoryMGMT\bin\Debug\ToolInventoryMGMT.exe
+E:\ze Potential Trash\Cute Practice Exercises\ToolMGMT\ToolInventoryMGMT\ToolInventoryMGMT\bin\Debug\ToolInventoryMGMT.pdb
+E:\ze Potential Trash\Cute Practice Exercises\ToolMGMT\ToolInventoryMGMT\ToolInventoryMGMT\obj\Debug\ToolInventoryMGMT.csprojAssemblyReference.cache
+E:\ze Potential Trash\Cute Practice Exercises\ToolMGMT\ToolInventoryMGMT\ToolInventoryMGMT\obj\Debug\ToolInventoryMGMT.csproj.CoreCompileInputs.cache
+E:\ze Potential Trash\Cute Practice Exercises\ToolMGMT\ToolInventoryMGMT\ToolInventoryMGMT\obj\Debug\ToolInventoryMGMT.exe
+E:\ze Potential Trash\Cute Practice Exercises\ToolMGMT\ToolInventoryMGMT\ToolInventoryMGMT\obj\Debug\ToolInventoryMGMT.pdb
